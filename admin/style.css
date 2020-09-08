@@ -1,0 +1,45 @@
+body {
+	font-family: verdana;
+}
+
+header{
+	background-color: #ccc;
+    padding: 5px 20px;
+}
+
+.content{
+	text-align: center;
+}
+
+.sidebar{
+	float: left;
+	width: 15%;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.body{
+	float: left;
+	width: 80%;
+	border-left: 3px solid #cecece;
+	padding-left:10px;
+}
+
+.error {
+	color: #ff0000;
+}
+
+label{
+	font-weight: 700;
+}
+
+textarea{
+	overflow-y: auto;
+}
