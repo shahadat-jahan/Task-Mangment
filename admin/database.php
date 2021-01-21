@@ -1,9 +1,9 @@
 <?php
 session_start();
 $server = "localhost";
-$db_name = "task management";
+$db_name = "task_management";
 $db_user = "root";
-$db_pass = "";
+$db_pass = "123456";
 
 //craete connection
 $conn = new mysqli($server, $db_user, $db_pass, $db_name);
